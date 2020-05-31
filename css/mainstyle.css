@@ -136,15 +136,17 @@ html {
 }
 
 .btn2-wrapper{
-    display: flex;
-    justify-content: center;
+    
     border: 5px dashed #FF605C;
     color:#FF605C;
     letter-spacing: 0.1em;
-    width: 40%;
     padding: 2%;
 }
-
+@media (min-width:900px)  { 
+    .btn2-wrapper{
+        width: 40%;
+    }
+}
 
 
 @media (max-width:500px)  { 
