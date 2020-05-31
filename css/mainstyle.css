@@ -26,7 +26,7 @@ html {
 }
 .file1{
     /* border: 2px dashed gray; */
-    padding: 20px;
+    padding: 0.5em;
     cursor: pointer;
     opacity: 0.8;
     transition: transform .2s; 
@@ -81,7 +81,7 @@ html {
 }
 .sample1{
     border: 10px solid lightgray;
-    width: 40%;
+    width: 70%;
 }
 /* .overlay{
     opacity:1;
@@ -104,6 +104,11 @@ html {
     margin: auto;  
     display: flex;
     flex-direction: column;
+    align-items: center;
+    align-content: center;
+
+    justify-content: space-around;
+
     margin-bottom: 5%;
 }
 .wrapper1{
@@ -139,9 +144,8 @@ html {
     color:#FF605C;
     letter-spacing: 0.1em;
     width: 40%;
-
+    padding: 2%;
 }
-
 
 .file{
     /* border: 2px dashed gray; */
