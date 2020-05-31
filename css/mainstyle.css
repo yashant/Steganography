@@ -34,6 +34,7 @@ html {
 .file1:hover{
     opacity: 1;
     transform: scale(1.1);
+
 }
 .file{
     /* border: 2px dashed gray; */
@@ -247,7 +248,7 @@ html {
         border: none;
         color:#FF605C; 
         padding: 2%;
-
+        margin-bottom: 50%;
     }
     .filename{
         writing-mode:vertical-rl;
