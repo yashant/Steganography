@@ -145,7 +145,6 @@ html {
 
 .file{
     /* border: 2px dashed gray; */
-    padding: 10%;
     cursor: pointer;
     opacity: 0.8;
     transition: transform .2s; 
@@ -205,7 +204,6 @@ html {
         border: 3px dashed #FF605C;
         color:#FF605C;
         margin-bottom: 10%;
-        padding: 25%;
 
     }
 }
