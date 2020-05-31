@@ -65,6 +65,7 @@ html {
     width: 90%;
     display: flex;
     justify-content: space-between;
+
 }
 
 .img-container {
@@ -80,7 +81,7 @@ html {
 }
 .sample1{
     border: 10px solid lightgray;
-    width: 75%;
+    width: 35%;
 }
 /* .overlay{
     opacity:1;
@@ -166,6 +167,13 @@ html {
         align-items: center;
         justify-content: space-around;
         margin-bottom: 5%;
+    }
+    .img-container1 {
+        padding: 2%;
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
     }
     .upload-icon{
         margin:auto;
