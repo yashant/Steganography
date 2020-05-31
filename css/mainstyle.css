@@ -167,6 +167,12 @@ html {
         justify-content: space-around;
         margin-bottom: 5%;
     }
+    .upload-icon{
+        margin:auto;
+        text-align: center;
+        cursor: pointer;
+        width: 20px;
+    }
     .img-container {
         padding: 2%;
         display: flex;
@@ -193,6 +199,12 @@ html {
         display: flex;
         flex-direction: row-reverse;
         justify-content: space-around;
+    }
+    .upload-icon{
+        margin:auto;
+        text-align: center;
+        cursor: pointer;
+        width: 40px;
     }
     .img-container {
         padding: 2%;
