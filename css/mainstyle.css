@@ -195,12 +195,14 @@ html {
 
     }
     .btn2-wrapper{
-        display: flex;
         border: 3px dashed #FF605C;
         color:#FF605C;
         margin-bottom: 10%;
         padding: 25%;
 
+    }
+    .filename{
+        border: 2px solid black;
     }
 }
  /* tablet, landscape iPad, lo-res laptops ands desktops */ 
@@ -242,7 +244,6 @@ html {
 
     }
     .btn2-wrapper{
-        display: flex;
         border: 3px dashed #FF605C;
         color:#FF605C;
         margin-bottom: 10%;
