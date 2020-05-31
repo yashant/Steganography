@@ -33,23 +33,23 @@ html {
 }
 .file1:hover{
     opacity: 1;
-    transform: scale(1.1)
-
+    transform: scale(1.1);
+}
+.file{
+    /* border: 2px dashed gray; */
+    cursor: pointer;
+    opacity: 0.8;
+    transition: transform .2s; 
+}
+.file:hover{
+    opacity: 1;
+    transform: scale(1.2);
 }
 
 .upload-icon{
     margin:auto;
     text-align: center;
     cursor: pointer;
-}
-
-.btn-wrapper{
-    display: flex;
-    justify-content: center;
-    border: 5px dashed #FF605C;
-    color:#FF605C;
-    font-family: 'pixelfont';
-    margin-bottom: 1%;
 }
 .btn-wrapper1{
     display: flex;
@@ -59,22 +59,18 @@ html {
     font-family: 'pixelfont';
     margin-bottom: 1%;
 }
-
 .img-container1 {
     padding: 2%;
     width: 90%;
     display: flex;
     justify-content: space-between;
-
 }
-
 .img-container {
     padding: 2%;
     width: 90%;
     display: flex;
     justify-content: space-between;
 }
-
 .sample{
     border: 10px solid lightgray;
     width: 40%;
@@ -126,6 +122,7 @@ html {
 }
 .filename{
     font-family: 'pixelfont';
+    border: 2px solid black;
 }
 
 /* Css for next page */
@@ -135,6 +132,7 @@ html {
     width: 90%;
     display: flex;
     justify-content: space-between;
+    border: 2px solid black;
 }
 
 .btn2-wrapper{
@@ -147,16 +145,6 @@ html {
     padding: 2%;
 }
 
-.file{
-    /* border: 2px dashed gray; */
-    cursor: pointer;
-    opacity: 0.8;
-    transition: transform .2s; 
-}
-.file:hover{
-    opacity: 1;
-    transform: scale(1.2);
-}
 
 
 @media (max-width:500px)  { 
@@ -202,6 +190,9 @@ html {
         flex-direction:column;
         flex-basis: 5%;
         justify-content: space-between;
+        align-items: center;
+        border: 2px solid black;
+
     }
     .btn2-wrapper{
         display: flex;
