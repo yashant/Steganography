@@ -137,8 +137,9 @@ html {
     justify-content: center;
     border: 5px dashed #FF605C;
     color:#FF605C;
-    width: 40%; 
     letter-spacing: 0.1em;
+    width: 40%;
+
 }
 
 
@@ -197,6 +198,15 @@ html {
         display: flex;
         flex-direction:column;
         flex-basis: 5%;
+        justify-content: space-between;
+    }
+    .btn2-wrapper{
+        display: flex;
+        justify-content: center;
+        border: 3px dashed #FF605C;
+        color:#FF605C;
+        margin-bottom: 10%;
+        padding: 25%;
 
     }
 }
@@ -235,6 +245,8 @@ html {
         flex-basis: 10%;
         display: flex;
         flex-direction:column;
+        justify-content: space-between;
+
     }
     .btn2-wrapper{
         display: flex;
@@ -242,7 +254,7 @@ html {
         border: 3px dashed #FF605C;
         color:#FF605C;
         margin-bottom: 10%;
-        padding: 5%;
+        padding: 25%;
 
     }
     .filename{
