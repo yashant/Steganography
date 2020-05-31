@@ -34,17 +34,18 @@ html {
 .file1:hover{
     opacity: 1;
     transform: scale(1.1);
-
 }
+
 .file{
-    /* border: 2px dashed gray; */
     cursor: pointer;
     opacity: 0.8;
     transition: transform .2s; 
+
 }
 .file:hover{
     opacity: 1;
-    transform: scale(1.2);
+    transform: scale(1.5);
+
 }
 
 .upload-icon{
@@ -121,10 +122,6 @@ html {
     justify-content: space-around;
     margin-bottom: 5%;
 }
-.filename{
-    font-family: 'pixelfont';
-    padding:5px;
-}
 
 /* Css for next page */
 
@@ -142,6 +139,7 @@ html {
     letter-spacing: 0.1em;
     padding: 2%;
 }
+
 @media (min-width:900px)  { 
     .btn2-wrapper{
         width: 40%;
@@ -251,8 +249,9 @@ html {
         margin-bottom: 50%;
     }
     .filename{
+        border: 2px dashed #FF605C;
         writing-mode:vertical-rl;
         transform: rotate(180deg);
-
+        padding: 5px;
     }
 }
