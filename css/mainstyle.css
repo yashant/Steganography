@@ -145,7 +145,7 @@ html {
 
 .file{
     /* border: 2px dashed gray; */
-    padding: 20px;
+    padding: 10%;
     cursor: pointer;
     opacity: 0.8;
     transition: transform .2s; 
@@ -156,7 +156,7 @@ html {
 }
 
 
-/* @media (max-width:500px)  { 
+@media (max-width:500px)  { 
     .wrapper{
         text-align: center;
         background: #FFFFFF;
@@ -208,7 +208,7 @@ html {
         padding: 25%;
 
     }
-} */
+}
  /* tablet, landscape iPad, lo-res laptops ands desktops */ 
 @media (max-width:900px)  {
     .wrapper{
