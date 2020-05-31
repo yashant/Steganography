@@ -200,7 +200,7 @@ html {
         border: 3px dashed #FF605C;
         color:#FF605C;
         margin-bottom: 10%;
-        padding: 25%;
+        padding: 2%;
 
     }
     .filename{
@@ -239,17 +239,18 @@ html {
     }
 
     .btn-container{
-        flex-basis: 10%;
         display: flex;
         flex-direction:column;
         justify-content: space-between;
+        flex-basis: 10%;
+        width: 10%;
 
     }
     .btn2-wrapper{
         border: 3px dashed #FF605C;
         color:#FF605C;
         margin-bottom: 10%;
-        padding: 25%;
+        padding: 2%;
 
     }
     .filename{
