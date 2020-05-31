@@ -51,6 +51,21 @@ html {
     font-family: 'pixelfont';
     margin-bottom: 1%;
 }
+.btn-wrapper1{
+    display: flex;
+    justify-content: center;
+    border: 5px dashed #FF605C;
+    color:#FF605C;
+    font-family: 'pixelfont';
+    margin-bottom: 1%;
+}
+
+.img-container1 {
+    padding: 2%;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
 
 .img-container {
     padding: 2%;
@@ -60,6 +75,10 @@ html {
 }
 
 .sample{
+    border: 10px solid lightgray;
+    width: 40%;
+}
+.sample1{
     border: 10px solid lightgray;
     width: 40%;
 }
@@ -77,6 +96,18 @@ html {
 
 } */
 .wrapper{
+    text-align: center;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 100px #ADAAC0;
+    width: 80%;
+    margin: auto;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 5%;
+}
+.wrapper1{
     text-align: center;
     background: #FFFFFF;
     box-shadow: 0px 0px 100px #ADAAC0;
