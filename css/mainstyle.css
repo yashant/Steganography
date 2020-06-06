@@ -21,7 +21,13 @@ html {
   align-items: center;
 
 }
-
+.btn-decode{
+  width: 40%;
+  margin:auto;
+  margin-top: 2%;
+  
+  text-align: center;
+}
 .img-container{
   display: flex;
   justify-content: space-around;

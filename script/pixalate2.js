@@ -55,15 +55,17 @@ btnEncode.addEventListener('click', function () {
     let imgResult = new Image();
 
     imgResult.onload = function () {
+        const imgDiv = document.querySelector(".img-right")
         imgResult.width = imgUp.width;
-        imgwidth = imgUp.width
-        imgheight = imgUp.height
+        var dpr = window.devicePixelRatio || 1;
+        console.log(dpr)
+        imgwidth = imgUp.width * dpr
+        imgheight = imgUp.height * dpr
         canvas.width = imgwidth
         canvas.height = imgheight
-        canvas.classList.add("img-upload")
 
         const context = canvas.getContext('2d')
-        context.translate(0.5, 0.5)
+        context.scale(dpr, dpr);
 
         context.drawImage(imgUp, 1, 1, imgwidth, imgheight)
         let imageData;
