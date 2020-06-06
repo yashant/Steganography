@@ -13,3 +13,7 @@ body{
 .img-upload{
     width: 90%;
   }
+
+  img{
+    margin-top: 20px;
+  }
