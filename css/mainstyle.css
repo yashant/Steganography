@@ -34,10 +34,10 @@ html {
   flex-wrap: wrap;
 }
 .img-left{
-  width: 45%;
+  max-width: 100%;
 }
 .img-right{
-  width: 45%;
+  max-width: 100%;
 }
 
 .img-upload{

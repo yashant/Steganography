@@ -53,6 +53,7 @@ btnEncode.addEventListener('click', function () {
 
     const canvas = document.createElement('canvas')
     let imgResult = new Image();
+    imgResult.classList.add("img-upload")
 
     imgResult.onload = function () {
         const imgDiv = document.querySelector(".img-right")
@@ -65,6 +66,8 @@ btnEncode.addEventListener('click', function () {
         canvas.height = imgheight
 
         const context = canvas.getContext('2d')
+        canvas.classList.add("img-upload")
+
         //context.scale(dpr, dpr);
 
         context.drawImage(imgUp, 1, 1, imgwidth, imgheight)
