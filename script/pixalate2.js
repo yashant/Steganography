@@ -59,8 +59,8 @@ btnEncode.addEventListener('click', function () {
         imgResult.width = imgUp.width;
         var dpr = window.devicePixelRatio || 1;
         console.log(dpr)
-        imgwidth = imgUp.width * dpr
-        imgheight = imgUp.height * dpr
+        imgwidth = imgUp.width
+        imgheight = imgUp.height
         canvas.width = imgwidth
         canvas.height = imgheight
 
