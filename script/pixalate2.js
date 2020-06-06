@@ -60,11 +60,12 @@ btnEncode.addEventListener('click', function () {
         imgheight = imgUp.height
         canvas.width = imgwidth
         canvas.height = imgheight
+        canvas.classList.add("img-upload")
 
         const context = canvas.getContext('2d')
-        context.imageSmoothingEnabled = false;
+        context.translate(0.5, 0.5)
 
-        context.drawImage(imgUp, 0, 0, imgwidth, imgheight)
+        context.drawImage(imgUp, 1, 1, imgwidth, imgheight)
         let imageData;
         let data;
 

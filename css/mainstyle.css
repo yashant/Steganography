@@ -25,14 +25,18 @@ html {
 .img-container{
   display: flex;
   justify-content: space-around;
-  align-items: flex-start;
-  align-content: flex-start;
   flex-wrap: wrap;
 }
-.img-upload{
-width: 45%;
+.img-left{
+  width: 45%;
+}
+.img-right{
+  width: 45%;
 }
 
+.img-upload{
+  width: 100%;
+}
 .text-box{
   display: none;
   margin: 2%;
