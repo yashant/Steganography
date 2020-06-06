@@ -65,7 +65,7 @@ btnEncode.addEventListener('click', function () {
         canvas.height = imgheight
 
         const context = canvas.getContext('2d')
-        context.scale(dpr, dpr);
+        //context.scale(dpr, dpr);
 
         context.drawImage(imgUp, 1, 1, imgwidth, imgheight)
         let imageData;
