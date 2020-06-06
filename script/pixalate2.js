@@ -62,6 +62,8 @@ btnEncode.addEventListener('click', function () {
         canvas.height = imgheight
 
         const context = canvas.getContext('2d')
+        context.imageSmoothingEnabled = false;
+
         context.drawImage(imgUp, 0, 0, imgwidth, imgheight)
         let imageData;
         let data;
