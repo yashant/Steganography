@@ -22,9 +22,7 @@ html {
 
 }
 
-
 .img-container{
-  width: 90%;
   display: flex;
   justify-content: space-around;
   align-items: flex-start;
@@ -32,8 +30,8 @@ html {
   flex-wrap: wrap;
 }
 .img-upload{
-  width: 100%;
-  }
+
+}
 
 .text-box{
   display: none;
