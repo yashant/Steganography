@@ -27,6 +27,8 @@ html {
   width: 90%;
   display: flex;
   justify-content: space-around;
+  align-items: flex-start;
+  align-content: flex-start;
   flex-wrap: wrap;
 }
 .img-upload{
