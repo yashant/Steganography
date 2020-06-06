@@ -5,44 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/mainstyle.css">
-
     <title>Document</title>
 </head>
 
 <body>
-    <section class="overlay">
-        <h1 class="title"> pixalate</h1>
-        <div class="wrapper">
-            <!-- <div class="img-container" id="container">
-                <img id="sample">
-                <img id="sample">
-            </div> -->
-            <div class="img-container" id="imagePut">
-                <img id="imgUploaded" />
-            </div>
+    <input type="file" id="file">
+    <img id="imgUploaded" class="img-upload">
+    <button id="decode" name="decode"> Decode</button>
+    <button id="showBtn" name="show"> Show</button>
 
-            <div class="btn-container">
-                <div class=" btn2-wrapper">
-                    <input type="file" class="input-file" id="file">
-                    <label class="file" for="file">
-                        <span class="filename"> Upload</span>
-
-                    </label>
-                </div>
-
-                <div class="btn2-wrapper" id="pixel-btn">
-                    <input type="button" class="input-file" id="input-file">
-                    <label class="file" for="input-file">
-                        <span class="filename"> Pixalate </span>
-                    </label>
-                </div>
-            </div>
-        </div>
-
-
-
-    </section>
-    <script src="script/pixalate2.js"></script>
 </body>
+<script src="script/decode.js"> </script>
 
 </html>
