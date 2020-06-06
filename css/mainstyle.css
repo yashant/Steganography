@@ -8,8 +8,6 @@ html {
     box-sizing: inherit;
   }
  
-body{
-}
 
 .body-wrapper{
   border: 2px solid black;
@@ -33,7 +31,6 @@ body{
 }
 .img-upload{
     width: 40%;
-    min-width: 300px;
   }
 
 .text-box{
