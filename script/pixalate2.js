@@ -73,7 +73,9 @@ btnEncode.addEventListener('click', function () {
             }
         }
         console.log(encodedValue)
-        document.body.appendChild(canvas);
+        //document.body.appendChild(canvas);
+        document.getElementById('test').src = canvas.toDataURL('image/png');
+
     }
     imgResult.src = document.getElementById("imgUploaded").src;
 })
