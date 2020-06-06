@@ -10,10 +10,57 @@ html {
  
 body{
 }
+
+.body-wrapper{
+  border: 2px solid black;
+  width: 80%;
+  margin: auto;
+  margin-top: 10%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+
+.img-container{
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
 .img-upload{
-    width: 90%;
+    width: 40%;
+    min-width: 300px;
   }
 
-  img{
-    margin-top: 20px;
-  }
+.text-box{
+  display: none;
+  margin: 2%;
+}
+
+.input-file {
+    display: none;
+}
+.file{
+    /* border: 2px dashed gray; */
+    cursor: pointer;
+    opacity: 0.8;
+    transition: transform .2s; 
+}
+.file:hover{
+    opacity: 1;
+    transform: scale(1.5);
+}
+.upload-icon{
+  margin:auto;
+  text-align: center;
+  cursor: pointer;
+}
+.btn-wrapper1{
+  color:#FF605C;
+  font-family: 'pixelfont';
+  margin-bottom: 1%;
+}

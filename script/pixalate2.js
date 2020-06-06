@@ -12,7 +12,9 @@ input.addEventListener('change', function () {
             imgUp.setAttribute("src", this.result);
         });
         reader.readAsDataURL(file);
+        document.querySelector(".text-box").style.display = "block";
     }
+
 })
 
 

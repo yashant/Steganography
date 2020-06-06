@@ -9,12 +9,32 @@
 </head>
 
 <body>
-    <input type="text" id="encode-text">
-    <button id="encode" name="Encode"> Encode</button>
-    <input type="file" id="file">
-    <img id="imgUploaded" class="img-upload">
-    <img id="test">
-    <img class="img-encode">
+
+    <div class="body-wrapper">
+        <div class="btn-wrapper1">
+            <input id="file" type="file" class="input-file">
+            <label class="file" for="file">
+                <img class="upload-icon" src="images/upload.png"></img> <br>
+                <span>upload a photo</span>
+            </label>
+        </div>
+
+        <div class="text-box">
+            <input type="text" id="encode-text">
+            <button id="encode" name="Encode"> Encode</button>
+        </div>
+
+        <div class="img-container">
+            <img id="imgUploaded" class="img-upload">
+
+            <img id="test">
+        </div>
+
+
+
+    </div>
+
+    <button onclick="location.href='imageupload.html'"> Decode </button>
 
 </body>
 <script src="script/pixalate2.js"> </script>
